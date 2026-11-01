@@ -1,4 +1,4 @@
-# fxq：高超声速巡航轨迹优化
+# ART-PPO-based-on-ART-SCP：巡航轨迹优化
 
 本仓库包含两套巡航轨迹优化代码及本地 PyCharm 入口。
 
