@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "converged": true,
+  "status": "Solve_Succeeded",
+  "runtime": 86.86725389999629,
+  "iterations": 29,
+  "validation": {
+    "passed": true,
+    "failures": [],
+    "nfz_enforced": true,
+    "terminal_miss_m": 0.05137767986809006,
+    "terminal_altitude_error_m": 0.0012102741093258373,
+    "terminal_speed_error_mps": -4.7240402636816725e-05,
+    "terminal_gamma_error_deg": 1.1041360448585982e-06,
+    "max_integration_error_si": [
+      0.0030972287131589837,
+      9.325940908411212e-09,
+      1.78371106773767e-09,
+      4.9796489292930346e-05,
+      5.168195831164614e-08,
+      5.129766167399907e-09,
+      6.448210115195252e-05
+    ],
+    "min_clearance_m": 196.36309381391038,
+    "fuel_kg": 4417.391822793306,
+    "pressure_range_pa": [
+      18017.839061608815,
+      40981.94477555879
+    ],
+    "heat_max_w_m2": 992692.3313729379,
+    "load_max": 1.7503804252946304,
+    "mach_range": [
+      6.580644446712786,
+      7.068995812631843
+    ],
+    "validation_step_s": 1.0
+  },
+  "history": []
+}

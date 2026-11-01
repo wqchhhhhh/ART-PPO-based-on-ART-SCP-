@@ -1,0 +1,53 @@
+{
+  "success": false,
+  "converged": false,
+  "status": "rl_infeasible",
+  "runtime": 9.915046499998425,
+  "iterations": 1,
+  "validation": {
+    "passed": false,
+    "failures": [
+      "terminal_position",
+      "terminal_altitude",
+      "terminal_speed",
+      "terminal_gamma",
+      "heat_flux",
+      "no_fly_zone"
+    ],
+    "nfz_enforced": true,
+    "terminal_miss_m": 23840.370880847255,
+    "terminal_altitude_error_m": 682.5714895330093,
+    "terminal_speed_error_mps": -17.092069950380846,
+    "terminal_gamma_error_deg": -0.05669312200214314,
+    "max_integration_error_si": [
+      0.007174614504037891,
+      2.8200286550372766e-10,
+      5.465914387769999e-10,
+      3.3198210530827055e-05,
+      1.1974546482726792e-07,
+      8.353448155418164e-09,
+      8.457656804239377e-05
+    ],
+    "min_clearance_m": -28999.05719183279,
+    "fuel_kg": 5773.948951175969,
+    "pressure_range_pa": [
+      34230.64402605885,
+      43483.48211364903
+    ],
+    "heat_max_w_m2": 1015798.8046799393,
+    "load_max": 0.9969524174039127,
+    "mach_range": [
+      6.9264268717779816,
+      6.993501610811445
+    ],
+    "validation_step_s": 1.0
+  },
+  "history": [
+    {
+      "update": 1,
+      "cost": 23.92285399777003,
+      "best_cost": 12.561853869522231,
+      "steps": 10
+    }
+  ]
+}

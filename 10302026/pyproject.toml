@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cruise-art"
+version = "0.1.0"
+description = "ART and SCP for fuel-optimal air-breathing cruise trajectories"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26", "scipy>=1.11", "casadi>=3.6", "cvxpy>=1.5",
+  "clarabel>=0.9", "torch>=2.1", "PyYAML>=6.0"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+plot = ["matplotlib>=3.8"]
+
+[project.scripts]
+cruise-art = "cruise.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cruise*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,484 @@
+{
+  "source_archive": "references/art-paper-source.zip",
+  "source_files_verified": 28,
+  "history_bundle": "references/paper-history.bundle",
+  "duplicates": [
+    {
+      "remove": "references/paper_repository/dataset/dataset-rpod-v05-param.npz",
+      "retain": "references/paper_data/dataset-rpod-v05-param.npz",
+      "bytes": 220157350,
+      "sha256": "8fd99b23bc0be35d52caa658f82f180a3754d3aa80a57b672e21e232c8c0fe5c"
+    },
+    {
+      "remove": "references/paper_repository/dataset/permutation.npy",
+      "retain": "references/paper_data/permutation.npy",
+      "bytes": 3142448,
+      "sha256": "43a25f85ad6bd03558af3528badc78f0d53a62c1a6d436251103e0efff0968e9"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_actions_cvx.pth",
+      "retain": "references/paper_data/torch_actions_cvx.pth",
+      "bytes": 471348745,
+      "sha256": "6a3296a28d1d6a688dbdab2a2b8a751adcbced6d9172a893b56c51f0cf59adf0"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_actions_scp.pth",
+      "retain": "references/paper_data/torch_actions_scp.pth",
+      "bytes": 471348745,
+      "sha256": "cf655213ce7869095123d28638e9735b4a56366b45691d5ba2199f3d6cafc3cd"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_ctgs_cvx.pth",
+      "retain": "references/paper_data/torch_ctgs_cvx.pth",
+      "bytes": 157116736,
+      "sha256": "4f99c98a378621a36e9faf0c06f95d9ca9b5e7fb47d2ab531cdd3f9a6a00a722"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_ctgs_scp.pth",
+      "retain": "references/paper_data/torch_ctgs_scp.pth",
+      "bytes": 157116736,
+      "sha256": "ba23e43f317d44b2416c14155483a992120b77cdb421762a6a07148ce3535cb0"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_rtgs_cvx.pth",
+      "retain": "references/paper_data/torch_rtgs_cvx.pth",
+      "bytes": 157116736,
+      "sha256": "2579b4b82bbe0b3f435cc9d00c909fa55281d46a0fbb42169dcd65f331acefde"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_rtgs_scp.pth",
+      "retain": "references/paper_data/torch_rtgs_scp.pth",
+      "bytes": 157116736,
+      "sha256": "88971fa67d53149a16cac2a75da352028bbd4357c2636802902e473bb590a0b3"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_states_roe_cvx.pth",
+      "retain": "references/paper_data/torch_states_roe_cvx.pth",
+      "bytes": 942696786,
+      "sha256": "bef5e57ee134e8e87ec8e1b467169abfd34fdd63ae3e906714f43df11d3c84a1"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_states_rtn_cvx.pth",
+      "retain": "references/paper_data/torch_states_rtn_cvx.pth",
+      "bytes": 942696786,
+      "sha256": "dab5ef10af4c6b71f61babe0277fda52d5a5469216729b2cb777e3b6041fbcb5"
+    },
+    {
+      "remove": "references/paper_repository/dataset/torch_states_rtn_scp.pth",
+      "retain": "references/paper_data/torch_states_rtn_scp.pth",
+      "bytes": 942696786,
+      "sha256": "8c13c9eb0f4c4e7a77bb4328d42df123fc3008d9011d198ba08f54349af31cfd"
+    },
+    {
+      "remove": "references/paper_repository/transformer/saved_files/checkpoints/checkpoint_rtn_art/optimizer.bin",
+      "retain": "references/paper_data/checkpoint_rtn_art/optimizer.bin",
+      "bytes": 88788101,
+      "sha256": "319891e898f68ccc73ff4fe5c22173fb2675b9431ff8ca83a1aa1718c2db4ebc"
+    },
+    {
+      "remove": "references/paper_repository/transformer/saved_files/checkpoints/checkpoint_rtn_art/pytorch_model.bin",
+      "retain": "references/paper_data/checkpoint_rtn_art/pytorch_model.bin",
+      "bytes": 44390978,
+      "sha256": "0112f117b09f57ab1394276550e285e93cbcad201b50fc40b27038f33d9a2327"
+    },
+    {
+      "remove": "references/paper_repository/transformer/saved_files/checkpoints/checkpoint_rtn_art/random_states_0.pkl",
+      "retain": "references/paper_data/checkpoint_rtn_art/random_states_0.pkl",
+      "bytes": 14727,
+      "sha256": "a8d451a5278022f76d4041819c052f583010a029e50b942c66d89fe61c97e23c"
+    }
+  ],
+  "duplicate_bytes": 4755748396,
+  "remove_files": [
+    {
+      "path": "references/paper_repository/.gitignore",
+      "bytes": 3940,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/LICENSE",
+      "bytes": 1093,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/README.md",
+      "bytes": 3885,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/requirements.txt",
+      "bytes": 241,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/.git/config",
+      "bytes": 312,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/description",
+      "bytes": 73,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/HEAD",
+      "bytes": 21,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/index",
+      "bytes": 3005,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/packed-refs",
+      "bytes": 112,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/applypatch-msg.sample",
+      "bytes": 478,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/commit-msg.sample",
+      "bytes": 1972,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4611,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/post-update.sample",
+      "bytes": 189,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/pre-applypatch.sample",
+      "bytes": 424,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/pre-commit.sample",
+      "bytes": 1649,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/pre-push.sample",
+      "bytes": 1374,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/pre-rebase.sample",
+      "bytes": 4898,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/pre-receive.sample",
+      "bytes": 544,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/hooks/update.sample",
+      "bytes": 3650,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/info/exclude",
+      "bytes": 240,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/logs/HEAD",
+      "bytes": 192,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/logs/refs/heads/main",
+      "bytes": 192,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 192,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/objects/pack/pack-73d55e39c1d15dda058f2ffceaa8f2641e07f4a7.idx",
+      "bytes": 2276,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/objects/pack/pack-73d55e39c1d15dda058f2ffceaa8f2641e07f4a7.pack",
+      "bytes": 129129,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/objects/pack/pack-73d55e39c1d15dda058f2ffceaa8f2641e07f4a7.rev",
+      "bytes": 224,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/refs/heads/main",
+      "bytes": 41,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "recovery": "git_metadata_in_history_bundle"
+    },
+    {
+      "path": "references/paper_repository/dataset/dataset-rpod-v05-param.npz",
+      "bytes": 220157350,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/permutation.npy",
+      "bytes": 3142448,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_actions_cvx.pth",
+      "bytes": 471348745,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_actions_scp.pth",
+      "bytes": 471348745,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_ctgs_cvx.pth",
+      "bytes": 157116736,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_ctgs_scp.pth",
+      "bytes": 157116736,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_rtgs_cvx.pth",
+      "bytes": 157116736,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_rtgs_scp.pth",
+      "bytes": 157116736,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_states_roe_cvx.pth",
+      "bytes": 942696786,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_states_rtn_cvx.pth",
+      "bytes": 942696786,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/torch_states_rtn_scp.pth",
+      "bytes": 942696786,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/dataset/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dataset-generation/dataset_gen.py",
+      "bytes": 4685,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dataset-generation/dataset_pargen.py",
+      "bytes": 6759,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dataset-generation/preprocessing.py",
+      "bytes": 3071,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dataset-generation/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dynamics/orbit_dynamics.py",
+      "bytes": 7240,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dynamics/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/dynamics/__pycache__/orbit_dynamics.cpython-311.pyc",
+      "bytes": 15270,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/dynamics/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 193,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/misc/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/misc/images/art_fig1.jpg",
+      "bytes": 113103,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/misc/images/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/ctg_sensitivity.py",
+      "bytes": 5258,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/main_optimization.py",
+      "bytes": 26460,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/ocp.py",
+      "bytes": 12681,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/rpod_scenario.py",
+      "bytes": 2364,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/warmstarting_analysis.py",
+      "bytes": 12751,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/saved_files/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/saved_files/plots/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/optimization/__pycache__/ocp.cpython-311.pyc",
+      "bytes": 21823,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/optimization/__pycache__/rpod_scenario.cpython-311.pyc",
+      "bytes": 4656,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/optimization/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 197,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/transformer/art.py",
+      "bytes": 10212,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/transformer/main_train.py",
+      "bytes": 10612,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/transformer/manage.py",
+      "bytes": 58534,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/transformer/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/transformer/saved_files/checkpoints/__init__.py",
+      "bytes": 0,
+      "recovery": "source_archive"
+    },
+    {
+      "path": "references/paper_repository/transformer/saved_files/checkpoints/checkpoint_rtn_art/optimizer.bin",
+      "bytes": 88788101,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/transformer/saved_files/checkpoints/checkpoint_rtn_art/pytorch_model.bin",
+      "bytes": 44390978,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/transformer/saved_files/checkpoints/checkpoint_rtn_art/random_states_0.pkl",
+      "bytes": 14727,
+      "recovery": "verified_duplicate"
+    },
+    {
+      "path": "references/paper_repository/transformer/__pycache__/art.cpython-311.pyc",
+      "bytes": 10903,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/transformer/__pycache__/manage.cpython-311.pyc",
+      "bytes": 98985,
+      "recovery": "generated_cache"
+    },
+    {
+      "path": "references/paper_repository/transformer/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 196,
+      "recovery": "generated_cache"
+    }
+  ]
+}

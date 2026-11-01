@@ -1,0 +1,688 @@
+{
+  "archive": "archive/pre-consolidation-2026-10-30",
+  "commit": "8d614890f0b5e371dde59204b3c02272a752d5e5",
+  "file_count": 136,
+  "total_bytes": 180734690,
+  "files": [
+    {
+      "path": "Hypersonic_Trajectory_Optimization_Release_v1.0.zip",
+      "blob": "69f68f9864472ed10f07cae03d1c8374934fa05b",
+      "bytes": 85768385
+    },
+    {
+      "path": "checkpoints/best_hypersonic_transformer.pt",
+      "blob": "a436fd2ee7f762a456474c09c17d73ff832335ea",
+      "bytes": 39132303
+    },
+    {
+      "path": "checkpoints/best_multiobstacle_transformer.pt",
+      "blob": "1eec52b24257258f47db90270fe05c67b1f1f819",
+      "bytes": 40772857
+    },
+    {
+      "path": "checkpoints/best_rl_refiner.zip",
+      "blob": "4081f5d8f2dbebcb888fe86d3a165711b70e528f",
+      "bytes": 1762679
+    },
+    {
+      "path": "checkpoints/final_rl_refiner.zip",
+      "blob": "8115b97e8f13e4f74069f48095f791683fda9738",
+      "bytes": 1762678
+    },
+    {
+      "path": "configs/mission.yaml",
+      "blob": "a2625c66b8f45859aeaee60262bd9f651dc818ec",
+      "bytes": 1771
+    },
+    {
+      "path": "configs/rl.yaml",
+      "blob": "e407e3989cd80ae8f46aa549cfab6a29088c7cd5",
+      "bytes": 1037
+    },
+    {
+      "path": "configs/scp.yaml",
+      "blob": "1799ca1bbaa30f620d511aae3ce92d3fa5fdc2c9",
+      "bytes": 1139
+    },
+    {
+      "path": "configs/transformer.yaml",
+      "blob": "59987546e524708d3ddb6ebca9004ea3d4ac1115",
+      "bytes": 1202
+    },
+    {
+      "path": "configs/vehicle.yaml",
+      "blob": "d5835a27ebf815ae6cfedd4f55b09a7b82a957ee",
+      "bytes": 1629
+    },
+    {
+      "path": "constraints/boundary_conditions.py",
+      "blob": "93b1fca4e90359325eea6dc10df24ff4dc189185",
+      "bytes": 2107
+    },
+    {
+      "path": "constraints/constraint_checker.py",
+      "blob": "6028919a64335b93585b102beea52031153ead9b",
+      "bytes": 2053
+    },
+    {
+      "path": "constraints/feasible_nfz_generator.py",
+      "blob": "3e34c568d42ae4242a330f23217b9a2da8e7145f",
+      "bytes": 9982
+    },
+    {
+      "path": "constraints/no_fly_zones.py",
+      "blob": "03a9fc60fe3201b7ff5daf8af531af2b73f31f91",
+      "bytes": 4419
+    },
+    {
+      "path": "constraints/path_constraints.py",
+      "blob": "36a144649c3adde20a53b7cd6c5c2fce63f47510",
+      "bytes": 3326
+    },
+    {
+      "path": "data/hypersonic/expert_hypersonic_trajectories.npz",
+      "blob": "666c155cbe5589101a8a0f01e26abac0df3c3acd",
+      "bytes": 120631
+    },
+    {
+      "path": "data/hypersonic/expert_hypersonic_trajectories.pkl",
+      "blob": "b2e10eb69e0a04875debf25c2603ba71984d2ecc",
+      "bytes": 172498
+    },
+    {
+      "path": "data/hypersonic/multiobstacle_expert_trajectories.npz",
+      "blob": "fbb1997097d89b1799cff471a51a48b67e716bfc",
+      "bytes": 156330
+    },
+    {
+      "path": "diagnose_constraints.py",
+      "blob": "527b3d8aeb989666c0c12dc2545ba006cb21f248",
+      "bytes": 4922
+    },
+    {
+      "path": "diagnose_dataset_sample.py",
+      "blob": "3730bdebdd3546600712c13139830a963c5d914b",
+      "bytes": 2538
+    },
+    {
+      "path": "doc/README.md",
+      "blob": "eacf8e19fca7be9bd706f543d5b67025ad57dc64",
+      "bytes": 3181
+    },
+    {
+      "path": "doc/experiment_results.md",
+      "blob": "78cc542ce98b6acb9d5afb2b35bf5499ae862ac7",
+      "bytes": 2194
+    },
+    {
+      "path": "doc/feasible_nfz_and_diff_refinement_report.md",
+      "blob": "3e3b6fd0af92206ac3e0128983eea2ee9dd1b208",
+      "bytes": 18870
+    },
+    {
+      "path": "doc/figures/hypersonic_scp_baseline.png",
+      "blob": "993aefc48dee7e3c24221a5f8d13db5cf50c6879",
+      "bytes": 592979
+    },
+    {
+      "path": "doc/figures/hypersonic_scp_smooth_profile.png",
+      "blob": "380d93eb755d458ea05ebf53d4ae4bea6d351c36",
+      "bytes": 619756
+    },
+    {
+      "path": "doc/figures/hypersonic_transformer_benchmark.png",
+      "blob": "cbbc3c53376b16f55af61dcd7d9b435560467391",
+      "bytes": 581954
+    },
+    {
+      "path": "doc/figures/paper_reproduction_3d_trajectories.png",
+      "blob": "205a74c58471e232e639e157aa7ad285538ca097",
+      "bytes": 1213072
+    },
+    {
+      "path": "doc/figures/paper_reproduction_control_profiles.png",
+      "blob": "59b1c8c1a62ce076bde045a45ca60a1cf3ba7ac0",
+      "bytes": 224501
+    },
+    {
+      "path": "doc/figures/paper_reproduction_convergence.png",
+      "blob": "85892a0862c6a1ddd0d0f0284542123253f528e6",
+      "bytes": 160058
+    },
+    {
+      "path": "doc/figures/paper_reproduction_koz_constraint.png",
+      "blob": "aeee812bd0ea170184de6377d0118932e321242e",
+      "bytes": 287392
+    },
+    {
+      "path": "doc/figures/paper_reproduction_mc_iterations.png",
+      "blob": "29a6f520c0b43db34fa221009f8480a0205a84b5",
+      "bytes": 119033
+    },
+    {
+      "path": "doc/figures/trajectory_benchmark_comparison.png",
+      "blob": "993ebf19ff00bfa2e53ee52b663eca5bc1f8801d",
+      "bytes": 808858
+    },
+    {
+      "path": "doc/framework_design.md",
+      "blob": "612c6a72e5a2ac71286922a5353de3483753b59e",
+      "bytes": 24682
+    },
+    {
+      "path": "doc/hypersonic_scp_baseline_report.md",
+      "blob": "f72d911fb7d0a75aac590894a391b10de210d212",
+      "bytes": 10179
+    },
+    {
+      "path": "doc/hypersonic_transformer_warmstart_report.md",
+      "blob": "e4a3ace5b91a254efd41fdf4b3dfd241db03ea03",
+      "bytes": 13208
+    },
+    {
+      "path": "doc/multi_nfz_deepened_results.md",
+      "blob": "fbdd03243b3951f7aa1dca609663c4527769238e",
+      "bytes": 6378
+    },
+    {
+      "path": "doc/option_a_discussion_and_complete_results.md",
+      "blob": "f1bb9db2f303ec195fd7fe08b419e97e61644588",
+      "bytes": 8045
+    },
+    {
+      "path": "doc/paper_reproduction_results.md",
+      "blob": "dc2de2f0bdae381e888d8be7bc1d0082c13edf36",
+      "bytes": 9143
+    },
+    {
+      "path": "doc/scheme_b_rl_refinement_report.md",
+      "blob": "ac2deec4545b65d77e0dcb3bc6127eb40822ddca",
+      "bytes": 13785
+    },
+    {
+      "path": "dynamics/aero_model.py",
+      "blob": "f3979771369cb4fcef0735f525113668230a8f0c",
+      "bytes": 2271
+    },
+    {
+      "path": "dynamics/atmosphere.py",
+      "blob": "f725edd0a15115502b0d2211ffc46f384f2171f3",
+      "bytes": 2864
+    },
+    {
+      "path": "dynamics/diff_hypersonic.py",
+      "blob": "cb64b1cf3dbcdde368f84f764195c1def680b3ee",
+      "bytes": 8303
+    },
+    {
+      "path": "dynamics/equations_of_motion.py",
+      "blob": "51a390f66a1a4782f2f7d644af094862c123d0e3",
+      "bytes": 4360
+    },
+    {
+      "path": "dynamics/integrator.py",
+      "blob": "0a7aa20500ea0dae9640fddcd6d90ab6004e0d82",
+      "bytes": 1593
+    },
+    {
+      "path": "dynamics/propulsion_model.py",
+      "blob": "292bb190ec4a28863378b871e6d739a337673fdd",
+      "bytes": 2025
+    },
+    {
+      "path": "evaluation/visualization.py",
+      "blob": "1375e4d6806f733921639da43667f977eb1bc45c",
+      "bytes": 4594
+    },
+    {
+      "path": "extract_paper.py",
+      "blob": "2577710b3018f55993f4fd31fd7ffa8d3b493220",
+      "bytes": 892
+    },
+    {
+      "path": "extracted_paper_text.txt",
+      "blob": "1a8c591a64379cdca1f3635fd6522e7301132b0e",
+      "bytes": 72804
+    },
+    {
+      "path": "paper_summary.txt",
+      "blob": "8d0bd1c05c1beab0a72c0fbb434645c7fbf33948",
+      "bytes": 12972
+    },
+    {
+      "path": "reproduce_paper_benchmark.py",
+      "blob": "48f89b930dcabf509774f0b874a6f3c2d9ae9437",
+      "bytes": 17721
+    },
+    {
+      "path": "results/data/benchmark_metrics.json",
+      "blob": "4a74900b06ab9664b513aef4f1b7d1b26b06403e",
+      "bytes": 1205
+    },
+    {
+      "path": "results/data/multiobstacle_benchmark_metrics.json",
+      "blob": "f9caa9e8912f4d1ad71ad04615c9b816237cf647",
+      "bytes": 777
+    },
+    {
+      "path": "results/data/option_b_vs_option_a_metrics.json",
+      "blob": "22a9f3dd1fbe56ae466cf9612f2b6cd28bf4c6ba",
+      "bytes": 1527
+    },
+    {
+      "path": "results/data/robustness_random_nfz_metrics.json",
+      "blob": "0b011f38b27a0880bad7a07c3a8da3078cdf64d9",
+      "bytes": 6827
+    },
+    {
+      "path": "results/data/simulation_trajectories.npz",
+      "blob": "c4b0a8a70739b58eb97844ca0e1157651f8370b9",
+      "bytes": 20868
+    },
+    {
+      "path": "results/figures/all_controls_vs_time.png",
+      "blob": "45726abca91860dc21c7a3933b302813b863a2bb",
+      "bytes": 956965
+    },
+    {
+      "path": "results/figures/all_states_vs_time.png",
+      "blob": "dccc5e1602aa5c659ef4e8c577f928c4019eb123",
+      "bytes": 1529441
+    },
+    {
+      "path": "results/figures/multiobstacle_deepened_results.png",
+      "blob": "2dfdb120c67a534955612c261f8c14fe5aac3dda",
+      "bytes": 1071011
+    },
+    {
+      "path": "results/figures/option_b_vs_option_a_comparison.png",
+      "blob": "b69699b492373229ca9219c5d0e53ca8a5661aeb",
+      "bytes": 668128
+    },
+    {
+      "path": "results/figures/path_constraints_and_aerodynamics.png",
+      "blob": "90621ced4a780b7d771a19cd513f501046121807",
+      "bytes": 800493
+    },
+    {
+      "path": "results/figures/robustness_random_nfz_results.png",
+      "blob": "23459f672b29498a753450ed0681293a654ca65d",
+      "bytes": 657628
+    },
+    {
+      "path": "rl/diff_optimizer.py",
+      "blob": "7eef70f67e701bd5d8c35c4e9a2559eafa997ba7",
+      "bytes": 8393
+    },
+    {
+      "path": "rl/evaluate_refiner.py",
+      "blob": "8124852bea61b8806af08a3e0c37e09779f65fd0",
+      "bytes": 23461
+    },
+    {
+      "path": "rl/refine_env.py",
+      "blob": "4f184afcbd454bde6334b44ece7e7e2ee59f60d1",
+      "bytes": 15047
+    },
+    {
+      "path": "rl/train_refiner.py",
+      "blob": "5b3afb3829135e94b9c26862aa1f07b75a36f713",
+      "bytes": 4235
+    },
+    {
+      "path": "rl_refiner/diff_sqp_optimizer.py",
+      "blob": "79b520d35722ce7c6db9f8ba763853b0a330d8cd",
+      "bytes": 11963
+    },
+    {
+      "path": "rl_refiner/hypersonic_env.py",
+      "blob": "abd20cdf5895b9734b14e7c5866d0c18d265a1b6",
+      "bytes": 8265
+    },
+    {
+      "path": "rl_refiner/rl_trajectory_generator.py",
+      "blob": "5cf53c0c99989947f62d9143ae37b9f935d1ad38",
+      "bytes": 3422
+    },
+    {
+      "path": "scp_solver/linearizer.py",
+      "blob": "eca7f838e489edc56f758f5c3b1179ebb9350e6a",
+      "bytes": 5598
+    },
+    {
+      "path": "scp_solver/ocp_cvxpy.py",
+      "blob": "4c5605155322c1489832d6316a029e2b8ed897a3",
+      "bytes": 6701
+    },
+    {
+      "path": "scp_solver/scp_pipeline.py",
+      "blob": "441abad919f4f1684d02d96144b70a625ed03f5c",
+      "bytes": 7689
+    },
+    {
+      "path": "scp_solver/trust_region.py",
+      "blob": "1660197adf0002b1808238fdd7b606395f8b6de6",
+      "bytes": 1961
+    },
+    {
+      "path": "scp_solver/virtual_control.py",
+      "blob": "e411dc8155491aa5006dbfe5399567150b63bf76",
+      "bytes": 933
+    },
+    {
+      "path": "scratch/bench_cpu_gpu.py",
+      "blob": "9706afbf7df1354010f0f70038a1cf42e7e1aa4b",
+      "bytes": 1598
+    },
+    {
+      "path": "scratch/check_scp_prop.py",
+      "blob": "83d8cf88882859ffc6e2df98036d3c7f01bc8d41",
+      "bytes": 2724
+    },
+    {
+      "path": "scratch/diagnose_error.py",
+      "blob": "ef85dd001ff99448f3935ab0f5d6ff0d9b753911",
+      "bytes": 2876
+    },
+    {
+      "path": "scratch/test_alm_refine.py",
+      "blob": "ec10e30a687eb0423aaaf36a52d1f3d70db3642e",
+      "bytes": 4992
+    },
+    {
+      "path": "scratch/test_complete_route_b.py",
+      "blob": "521af7a43c306a47ff6b7270e2229e6658894201",
+      "bytes": 2353
+    },
+    {
+      "path": "scratch/test_corridor_hybrid_all5.py",
+      "blob": "51e8c1488500a5b68b85300a8b4ca40c4a2fb652",
+      "bytes": 6131
+    },
+    {
+      "path": "scratch/test_corridor_scp.py",
+      "blob": "d0fdc859a7339e813952777d791a06586bbfe0b0",
+      "bytes": 3965
+    },
+    {
+      "path": "scratch/test_diff_eom.py",
+      "blob": "6bb6ba7fd4428986314dd0d0546f08ca4c65d003",
+      "bytes": 2005
+    },
+    {
+      "path": "scratch/test_diff_lbfgs.py",
+      "blob": "4da54dd85c481cef6c19f0ef513d7f7a9be8727f",
+      "bytes": 5694
+    },
+    {
+      "path": "scratch/test_diff_sqp_nfz.py",
+      "blob": "568e2001c70e6a3491910d1d3d548f1a1470091b",
+      "bytes": 4516
+    },
+    {
+      "path": "scratch/test_env_eval.py",
+      "blob": "26a9071f5c8860b6141a36fec22e488b224cad01",
+      "bytes": 645
+    },
+    {
+      "path": "scratch/test_flanking_warmstart.py",
+      "blob": "e6a94cc84035492dfbdcfb69972bbaf2ee778884",
+      "bytes": 3494
+    },
+    {
+      "path": "scratch/test_gauss_newton.py",
+      "blob": "6ce58fea8b96e320949c4d00913cea7b0aa498e1",
+      "bytes": 6047
+    },
+    {
+      "path": "scratch/test_guided_warmstart.py",
+      "blob": "dc916cb99b6fca018b85307fcc3f50630efe97fb",
+      "bytes": 4549
+    },
+    {
+      "path": "scratch/test_hybrid_all5.py",
+      "blob": "1078965efc8c702a1bb4cedcf468266f57d7636c",
+      "bytes": 5057
+    },
+    {
+      "path": "scratch/test_hybrid_all5_full.py",
+      "blob": "c71bcdf3b1cd7d1fcda7e6232c3e96cbb722182a",
+      "bytes": 5075
+    },
+    {
+      "path": "scratch/test_hybrid_route_b.py",
+      "blob": "994e796a814761e89f6d29dd9506db7b598139fe",
+      "bytes": 5393
+    },
+    {
+      "path": "scratch/test_lbfgs.py",
+      "blob": "8aed2cbf88612c99ed00471749503654846e39a5",
+      "bytes": 4796
+    },
+    {
+      "path": "scratch/test_perfect_diff_sqp.py",
+      "blob": "e174ceda623280e4b61ed746a6ccee19314cfdc4",
+      "bytes": 8852
+    },
+    {
+      "path": "scratch/test_perfect_route_b_pipeline.py",
+      "blob": "da052569fccda9a490870dd352d1149fcc495b87",
+      "bytes": 9033
+    },
+    {
+      "path": "scratch/test_qp_path.py",
+      "blob": "d4c8239d30281bf4adae92adfa48ae24cd12ad08",
+      "bytes": 8435
+    },
+    {
+      "path": "scratch/test_route_b_benchmark.py",
+      "blob": "b7b0a66cdc72160af07bd9e4ee71c42776881ce7",
+      "bytes": 4074
+    },
+    {
+      "path": "scratch/test_route_b_perfection.py",
+      "blob": "3f873db7c57f8a5cb86791c82a44bdbeff067b40",
+      "bytes": 2346
+    },
+    {
+      "path": "scratch/test_route_b_waypoint_seed.py",
+      "blob": "9939f9368de8b5c6540590532e18742d08ad71e0",
+      "bytes": 3886
+    },
+    {
+      "path": "scratch/test_scen2_12knots.py",
+      "blob": "551218cd00cba6b60d6af64995d4e47896d2cace",
+      "bytes": 4014
+    },
+    {
+      "path": "scratch/test_scen4_corridor.py",
+      "blob": "b449adea7ae2ac9dfa7aebe4fd8ddb172b44b32c",
+      "bytes": 6541
+    },
+    {
+      "path": "scratch/test_smooth_refine.py",
+      "blob": "a5388339b3e1b41dd4e5fa99ab9ef092c127217f",
+      "bytes": 5507
+    },
+    {
+      "path": "scratch/test_spline_opt.py",
+      "blob": "1597361866471e582bb3368147aa5a4750bc02e7",
+      "bytes": 4998
+    },
+    {
+      "path": "scratch/test_tangent_qp.py",
+      "blob": "f9ef21104e3652670bb29de5db7ef9132a4e17ac",
+      "bytes": 8595
+    },
+    {
+      "path": "scratch/test_transformer_warmstart_scp_routeb.py",
+      "blob": "6e61088b0254f559f1d44ccef18889a9411c1006",
+      "bytes": 5402
+    },
+    {
+      "path": "scratch/test_waypoint_flank.py",
+      "blob": "49d9dd59e0a0b3e10a2b284bc87ef3be63789ea2",
+      "bytes": 3622
+    },
+    {
+      "path": "scratch/verify_gn_solution.py",
+      "blob": "8729f354d2e4452d8e2ce43f9d87d0d7f15e19a6",
+      "bytes": 2193
+    },
+    {
+      "path": "scratch/verify_perfected_route_b_all5.py",
+      "blob": "34440fbc9aac828f73b788940021fcd3012bfa7a",
+      "bytes": 8799
+    },
+    {
+      "path": "scratch_test_hypersonic_scp.py",
+      "blob": "ef29424ce7b40b6bb1c2e68b2de2250002184329",
+      "bytes": 8891
+    },
+    {
+      "path": "scratch_test_rk4.py",
+      "blob": "f41261986b5d8531af50d79fe30db7a36c9fecca",
+      "bytes": 2158
+    },
+    {
+      "path": "scripts/evaluate_multiobstacle_pipeline.py",
+      "blob": "04a49d83b39e412f571ef547ebc0aefa62c920b3",
+      "bytes": 10625
+    },
+    {
+      "path": "scripts/evaluate_transformer_warmstart.py",
+      "blob": "d5b4d22376fbd0b72413d3072ae3560c981736d3",
+      "bytes": 14901
+    },
+    {
+      "path": "scripts/generate_comprehensive_results.py",
+      "blob": "eaf8bfda337ecd7b1a77d7c86cdb31a289c54472",
+      "bytes": 28708
+    },
+    {
+      "path": "scripts/generate_hypersonic_dataset.py",
+      "blob": "b33aa34a4cf3be1ae0c352f5bcf35111d79544ab",
+      "bytes": 8363
+    },
+    {
+      "path": "scripts/generate_multiobstacle_dataset.py",
+      "blob": "c3ed017c063d070e9b60083efdafa4f155524570",
+      "bytes": 8933
+    },
+    {
+      "path": "scripts/package_release.py",
+      "blob": "dc788463d9164c6a6532b9b2da95082adefd0f01",
+      "bytes": 1869
+    },
+    {
+      "path": "scripts/run_comparative_experiment.py",
+      "blob": "664ea1119e59d0a6d65ef8b604b7473290b6f8ba",
+      "bytes": 17452
+    },
+    {
+      "path": "scripts/test_multi_nfz_model.py",
+      "blob": "6900842b55c04554bc742a1a9c2f5f32557c4739",
+      "bytes": 1479
+    },
+    {
+      "path": "scripts/test_multi_nfz_scp.py",
+      "blob": "c62e78e74caf5f66f0872877c112e2cfce439ce1",
+      "bytes": 6843
+    },
+    {
+      "path": "scripts/test_realistic_multi_nfz.py",
+      "blob": "fbf2b453b526c23ec9ee66c60fded850c77e3105",
+      "bytes": 6827
+    },
+    {
+      "path": "scripts/verify_robustness_random_nfz.py",
+      "blob": "d36322c8423a52ea256be0a32ca984735ac42074",
+      "bytes": 17062
+    },
+    {
+      "path": "test_hypersonic_pipeline.py",
+      "blob": "705d1409f90cdddce138c61a0c284cc4aea4588c",
+      "bytes": 8636
+    },
+    {
+      "path": "test_hypersonic_precision.py",
+      "blob": "12a83e42bb140341a44fd9a75fc7ca3fa68df3bd",
+      "bytes": 9679
+    },
+    {
+      "path": "test_paper_single.py",
+      "blob": "0ee6c8345ccfca8de8dbc922e7cfdf42f13ce47f",
+      "bytes": 6495
+    },
+    {
+      "path": "test_phase1.py",
+      "blob": "c6572aa8b92bd378412894801855ef3de31b698b",
+      "bytes": 5709
+    },
+    {
+      "path": "test_phase2_scp.py",
+      "blob": "90504ce04a06c93e01e2e59151cd6e104f5a9287",
+      "bytes": 5433
+    },
+    {
+      "path": "test_smooth_hypersonic_scp.py",
+      "blob": "200928515ca15f18226284cc517e0411d19cc2f2",
+      "bytes": 14597
+    },
+    {
+      "path": "transformer/dataset.py",
+      "blob": "76c95246b11b7171a270fb77104ad15c92de70be",
+      "bytes": 3848
+    },
+    {
+      "path": "transformer/inference.py",
+      "blob": "ca35fcc2b49533535dbc9a2a63f692980fa129bb",
+      "bytes": 4772
+    },
+    {
+      "path": "transformer/model.py",
+      "blob": "59469a05a4e23e9006379e1cb397ac5f3d944654",
+      "bytes": 4816
+    },
+    {
+      "path": "transformer/multi_nfz_dataset.py",
+      "blob": "a89d94d0fa2c39c50237ce50e7d6dd232e51afdc",
+      "bytes": 4244
+    },
+    {
+      "path": "transformer/multi_nfz_inference.py",
+      "blob": "8d4e567207a14502122a853910dd77f584510437",
+      "bytes": 4986
+    },
+    {
+      "path": "transformer/multi_nfz_model.py",
+      "blob": "5c9ea56323df6214f64b4e6f92f9c6ce02323ae3",
+      "bytes": 6833
+    },
+    {
+      "path": "transformer/multi_nfz_train.py",
+      "blob": "83cde5da944bb0e35a8a5915d3cee38a0fde1c06",
+      "bytes": 6122
+    },
+    {
+      "path": "transformer/train.py",
+      "blob": "9e19c10522a6b72af3e1ab63053488848c21d382",
+      "bytes": 7390
+    },
+    {
+      "path": "utils/config_loader.py",
+      "blob": "1859730d8bd271699adb2df25a0230b50091f0d1",
+      "bytes": 709
+    },
+    {
+      "path": "utils/coordinate_transforms.py",
+      "blob": "11413db775078633bf36ab613006fd06f2ff9908",
+      "bytes": 1644
+    },
+    {
+      "path": "utils/normalization.py",
+      "blob": "d31f9e6d8316355d96c96caa18022671ec98ea45",
+      "bytes": 1768
+    }
+  ]
+}

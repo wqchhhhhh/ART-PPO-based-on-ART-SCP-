@@ -1,0 +1,2 @@
+# Install the single package definition, including verification and plotting tools.
+-e .[test,plot]

@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "failures": [],
+  "checks": {
+    "altitude_m": {
+      "min": 29999.99898898974,
+      "max": 34999.87892534211,
+      "lower": 25000.0,
+      "upper": 35000.0,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    "velocity_mps": {
+      "min": 2109.999988467722,
+      "max": 2349.984791307583,
+      "lower": 1850.0,
+      "upper": 2350.0,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    "gamma_rad": {
+      "min": -0.062412828762424544,
+      "max": 0.04517008077809443,
+      "lower": -0.06981317007977318,
+      "upper": 0.06981317007977318,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    "heading_rad": {
+      "min": 1.0460563627157837,
+      "max": 1.4098205229887724,
+      "lower": -3.141592653589793,
+      "upper": 3.141592653589793,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    "mass_kg": {
+      "min": 15768.324460896818,
+      "max": 20000.0,
+      "lower": 12000.0,
+      "upper": 20000.0,
+      "tolerance": 0.01,
+      "passed": true
+    },
+    "longitude_rad": {
+      "min": 1.8325957145940461,
+      "max": 2.495820826635482,
+      "lower": 1.6825957145940462,
+      "upper": 2.6458208303518913,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "latitude_rad": {
+      "min": 0.3490658503988659,
+      "max": 0.5585053600868094,
+      "lower": 0.1990658503988659,
+      "upper": 0.7085053606381855,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "alpha_rad": {
+      "min": 0.039876810722312805,
+      "max": 0.09840558782702813,
+      "lower": -0.026179938779914945,
+      "upper": 0.13962634015954636,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "bank_rad": {
+      "min": -0.23952848560836176,
+      "max": 0.00023848785187191322,
+      "lower": -1.0471975511965976,
+      "upper": 1.0471975511965976,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "throttle": {
+      "min": 0.05000042300096835,
+      "max": 0.9999999396590807,
+      "lower": 0.05,
+      "upper": 1.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "dynamic_pressure_pa": {
+      "min": 20667.290579985758,
+      "max": 41042.426123326935,
+      "lower": 18000.0,
+      "upper": 80000.0,
+      "tolerance": 1.0,
+      "passed": true
+    },
+    "normal_load": {
+      "min": 0.4525271899870718,
+      "max": 2.2889541135516134,
+      "lower": 0.0,
+      "upper": 2.5,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    "heat_flux_wm2": {
+      "min": 766131.6536269715,
+      "max": 999195.8691851364,
+      "lower": 0.0,
+      "upper": 1000000.0,
+      "tolerance": 10.0,
+      "passed": true
+    }
+  },
+  "nfz_checks": {
+    "NFZ-A": {
+      "min_clearance_m": 98.9313796630995,
+      "tolerance_m": 0.05,
+      "passed": true
+    },
+    "NFZ-B": {
+      "min_clearance_m": 26627.442334336563,
+      "tolerance_m": 0.05,
+      "passed": true
+    },
+    "NFZ-C": {
+      "min_clearance_m": 99.99399500887307,
+      "tolerance_m": 0.05,
+      "passed": true
+    }
+  },
+  "min_clearance_m": 98.9313796630995,
+  "dynamics_max_abs_error_si": [
+    0.0010839654132723808,
+    3.731086994918087e-09,
+    5.594554819410291e-10,
+    2.7559880436456297e-05,
+    3.355454952476758e-08,
+    6.308271682797795e-09,
+    2.641182072693482e-05
+  ],
+  "dynamics_tolerance_si": [
+    0.5,
+    7.848061528802386e-08,
+    7.848061528802386e-08,
+    0.02,
+    3.490658503988659e-05,
+    3.490658503988659e-05,
+    0.02
+  ],
+  "terminal_error_si": [
+    -0.0010110102593898773,
+    -3.7164094024433325e-09,
+    -5.513760559239245e-10,
+    -1.1532278222148307e-05,
+    3.355454952476758e-08,
+    -2.354738626308972e-11,
+    6.550144462380558e-06
+  ],
+  "dynamics_passed": true,
+  "reference_max_abs_error_si": [
+    0.0,
+    0.0,
+    0.0,
+    1.8431436932253575e-15,
+    1.6460869374386874e-18,
+    9.75781955236954e-19,
+    0.0
+  ],
+  "reference_passed": true,
+  "boundary_passed": true,
+  "time_passed": true,
+  "solver_passed": true,
+  "flight_time_tolerance_s": 1e-06,
+  "integration_method": "DOP853",
+  "rtol": 1e-10,
+  "atol": 1e-11,
+  "max_step_s": 1.0,
+  "grid_points": 1884,
+  "extrema_refined": true
+}

@@ -1,0 +1,19 @@
+代码位置：
+CruiseTrjOpt：C:\Users\86156\Documents\ChatGPT\飞行器\CruiseTrjOpt\CruiseTrjOpt
+ART + SCP：C:\Users\86156\Documents\ChatGPT\飞行器\10302026
+
+PyCharm 操作：
+1. File > Open 打开 C:\Users\86156\Documents\ChatGPT\飞行器
+2. Settings > Project > Python Interpreter > Add Interpreter > Add Local Interpreter，选择 Existing，指定：
+C:\Users\86156\Documents\ChatGPT\飞行器\.venv\Scripts\python.exe
+3. 右上角运行配置选择 CruiseTrjOpt 或 ART_SCP，点击绿色运行按钮。
+也可右键 run_cruisetrjopt.py 或 run_art_scp.py，选择 Run。
+必须使用这两个启动文件，它们处理 Windows 求解器 DLL 搜索路径和工作目录。
+
+环境：项目 .venv，Python 3.11.14；基于 Anaconda O^O 环境创建，复用其 PyTorch。
+Anaconda 安装：E:\worktools\anaconda
+基础环境解释器：E:\worktools\anaconda\envs\O^O\python.exe
+新增依赖安装于本项目 .venv。
+
+当前运行配置名：CruiseTrjOpt_verified、ART_SCP_verified。
+Git 已在 PyCharm 设置 > 版本控制 > Git 中测试成功，版本 2.53.0。

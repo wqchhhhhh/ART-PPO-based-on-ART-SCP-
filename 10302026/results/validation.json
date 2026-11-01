@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-30",
+  "environment": "hypersonic-tto",
+  "python": "3.11.17",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "casadi": "3.8.2",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "torch": "2.10.0+cu130",
+    "PyYAML": "6.0.3",
+    "pytest": "9.2.0",
+    "matplotlib": "3.11.2"
+  },
+  "tests": {
+    "passed": 9
+  },
+  "archive": "8d614890f0b5e371dde59204b3c02272a752d5e5",
+  "default_expert": {
+    "success": true,
+    "converged": true,
+    "status": "Solve_Succeeded",
+    "runtime": 83.81105000001844,
+    "iterations": 29,
+    "validation": {
+      "passed": true,
+      "failures": [],
+      "nfz_enforced": true,
+      "terminal_miss_m": 0.05137767986809006,
+      "terminal_altitude_error_m": 0.0012102741093258373,
+      "terminal_speed_error_mps": -4.7240402636816725e-05,
+      "terminal_gamma_error_deg": 1.1041360448585982e-06,
+      "max_integration_error_si": [
+        0.0030972287131589837,
+        9.325940908411212e-09,
+        1.78371106773767e-09,
+        4.9796489292930346e-05,
+        5.168195831164614e-08,
+        5.129766167399907e-09,
+        6.448210115195252e-05
+      ],
+      "min_clearance_m": 196.36309381391038,
+      "fuel_kg": 4417.391822793306,
+      "pressure_range_pa": [
+        18017.839061608815,
+        40981.94477555879
+      ],
+      "heat_max_w_m2": 992692.3313729379,
+      "load_max": 1.7503804252946304,
+      "mach_range": [
+        6.580644446712786,
+        7.068995812631843
+      ],
+      "validation_step_s": 1.0
+    }
+  },
+  "default_geometry_scp": {
+    "success": true,
+    "converged": false,
+    "status": "feasible_iteration_limit",
+    "runtime": 115.26542849995894,
+    "iterations": 41,
+    "validation": {
+      "passed": true,
+      "failures": [],
+      "nfz_enforced": true,
+      "terminal_miss_m": 0.008213873672749249,
+      "terminal_altitude_error_m": -0.0005515850716619752,
+      "terminal_speed_error_mps": 1.094493654818507e-06,
+      "terminal_gamma_error_deg": 1.60583560540129e-08,
+      "max_integration_error_si": [
+        0.0010978678255924024,
+        8.004974461073289e-10,
+        1.0960545804294952e-09,
+        9.847921319305897e-06,
+        2.0188249675223615e-08,
+        2.7422661919018765e-09,
+        2.1792337065562606e-05
+      ],
+      "min_clearance_m": 195.35690654048813,
+      "fuel_kg": 4777.173416876971,
+      "pressure_range_pa": [
+        24068.723879806435,
+        40986.68812721459
+      ],
+      "heat_max_w_m2": 993254.0368554482,
+      "load_max": 1.2620904574229805,
+      "mach_range": [
+        6.591021532213232,
+        7.267322578114937
+      ],
+      "validation_step_s": 1.0
+    }
+  },
+  "smoke": {
+    "missions": 4,
+    "trajectories": 8,
+    "splits": {
+      "test": [
+        104
+      ],
+      "val": [
+        103
+      ],
+      "train": [
+        100,
+        101
+      ]
+    },
+    "model_config": {
+      "layers": 2,
+      "heads": 4,
+      "embedding": 64,
+      "context_length": 60,
+      "max_steps": 60,
+      "dropout": 0.1,
+      "task_conditioning": true,
+      "max_zones": 3
+    },
+    "best_epoch": 97,
+    "best_validation_loss": 0.014716791920363903,
+    "held_out_scenario": 104
+  }
+}

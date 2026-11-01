@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Plot_Comparison" type="PythonConfigurationType" factoryName="Python">
+    <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_comparison.py" />
+    <module name="飞行器" /><method v="2" />
+  </configuration>
+</component>
+
+
+
+
+
